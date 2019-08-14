@@ -16,7 +16,7 @@ At first you need to install docker. Please follow the instruction on https://do
 
 After the successful installation, all what you need to do is:
 
-``docker run -d -p 8080:80 quay.io/vebaev/galaxy-ngs2``
+``docker run -d -p 8080:80 quay.io/vebaev/galaxy-ngsm``
 
 
 
@@ -24,7 +24,7 @@ Docker images are "read-only", all your changes inside one session will be lost 
 
 Fortunately, this is as easy as:
 
-``docker run -d -p 8080:80 -v /home/user/galaxy_storage/:/export/ quay.io/vebaev/galaxy-ngs2``
+``docker run -d -p 8080:80 -v /home/user/galaxy_storage/:/export/ quay.io/vebaev/galaxy-ngsm``
 
 With the additional ``-v /home/user/galaxy_storage/:/export/`` parameter, docker will mount the folder ``/home/user/galaxy_storage`` into the Container under ``/export/``. A ``startup.sh`` script, that is usually starting Apache, PostgreSQL and Galaxy, will recognize the export directory with one of the following outcomes:
 
