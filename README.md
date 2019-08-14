@@ -2,7 +2,7 @@
 [![Docker Repository on Quay](https://quay.io/repository/vebaev/galaxy-ngs/status "Docker Repository on Quay")](https://quay.io/repository/vebaev/galaxy-ngs)
 
 
-Galaxy Workbench for NGS Analysis
+Galaxy Workbench for NGS Analysis (#2)
 =================================
 
 :whale: Galaxy Docker repository for NGS analysis (Galaxy flavour) - this flavour adds metagenomics tools Mothur and Qiime to the base image galaxy-NGS
