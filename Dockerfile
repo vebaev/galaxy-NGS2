@@ -1,6 +1,6 @@
-# Galaxy NGS image 1
+# Galaxy NGS image 2
 
-FROM bgruening/galaxy-stable:19.01
+FROM quay.io/vebaev/galaxy-ngs
 
 MAINTAINER Vesselin Baev, vebaev@plantgene.eu
 
@@ -27,8 +27,4 @@ RUN df -h && \
     /tool_deps/_conda/bin/conda clean --all --yes && \
     rm -rf /tool_deps/_conda/pkgs && \
     df -h
-
-
-
-
 
