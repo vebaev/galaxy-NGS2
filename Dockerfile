@@ -1,6 +1,6 @@
 # Galaxy NGS image 2
 
-FROM quay.io/vebaev/galaxy-ngs
+FROM quay.io/vebaev/galaxy-ngs:19.01
 
 MAINTAINER Vesselin Baev, vebaev@plantgene.eu
 
