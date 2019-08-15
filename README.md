@@ -5,9 +5,11 @@
 Galaxy Workbench for NGS Analysis (#2)
 =================================
 
-:whale: Galaxy Docker repository for NGS analysis (Galaxy flavour) - this flavour adds metagenomics tools Mothur and Qiime to the base image galaxy-NGS
+:whale: Galaxy Docker repository for NGS analysis (Galaxy flavor) - this flavor adds the following metagenomics tools on top of the base image galaxy-NGS:
 
-In folder ``/config`` file ``job_conf.xml`` is preconfigured for some tools to use multi-core resources - 16CPU (--ntasks=16).
+  - Mothur
+  - Qiime 1.9.1
+
 
 
 Usage
